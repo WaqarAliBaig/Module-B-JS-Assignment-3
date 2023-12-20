@@ -1,0 +1,41 @@
+/* ========== Google font import ========= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body .container-box {
+  margin: 5rem;
+}
+
+body .container-box .container img {
+  width: 8rem;
+}
+
+body .container-box .container img p {
+  text-align: center;
+}
+
+#select-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#select-options button {
+  background: whitesmoke;
+  font-size: 13px;
+  border-radius: 2px;
+  padding: 3px 20px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+#select-options button:hover {
+  background-color: darkgray;
+}
